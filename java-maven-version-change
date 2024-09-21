@@ -1,0 +1,24 @@
+java version:
+
+sudo update-alternatives --list java
+sudo apt update
+sudo apt install openjdk-8-jdk
+sudo update-alternatives --config java
+java -version
+sudo update-alternatives --config javac
+
+=================================
+
+Maven Version:
+
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk list maven
+sdk install maven VERSION_NUMBER
+sdk install maven 3.8.4
+sdk use maven VERSION_NUMBER
+mvn -version
+
+
+
+

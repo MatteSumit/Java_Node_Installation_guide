@@ -1,0 +1,15 @@
+ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+ source ~/.bashrc   
+ nvm install node 
+ nvm install 18.16.0 
+ nvm install --lts 
+ nvm ls 
+ nvm ls-remote 
+ nvm use 18.16.0  ---> To switch nvm version
+nvm run default --version
+
+##You can run a Node script with the desired version of node.js using the below command:
+nvm exec 18.16.0 server.js 
+
+##Uninstall 
+nvm uninstall 18.16.0 
